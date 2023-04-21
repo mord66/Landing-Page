@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left:18px;
+    padding-right: 18px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+.top-content {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    background-color: #41644A;
+    justify-content: center;
+    color:white;
+    font-weight: 500;
+}
+
+#signup {
+    margin-top: 12px;
+}
+
+.top-text{
+    width:450px;
+    align-self: center;
+    padding-bottom: 36px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: 8px;
+    
+}
