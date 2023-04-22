@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
 body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -9,8 +14,9 @@ body {
     justify-content: space-between;
     padding-left:18px;
     padding-right: 18px;
+    padding-bottom: 9px;
     align-items: center;
-    background-color: black;
+    background-color:#123524;
     color: white;
     font-weight: 900;
 }
@@ -22,7 +28,7 @@ body {
     color:white;
     font-weight: 500;
     background-image: url("images/jungle8.jpg");
-    height: 700px;
+    height: 600px;
     align-items: center;
 }
 
@@ -117,8 +123,38 @@ a {
 
 .team-info {
 
-   /* background-image: url("/images/jungle1.jpg");*/
-    height:500px;
-    background-color: black;
+   background-color: #123524;
+   height:700px;
+  /* box-shadow:inset 0px 0px 20px 20px black; */
 
+}
+
+.mid-title {
+    margin-top: 36px;
+    margin-bottom: 100px;
+    color:rgb(235, 235, 193);
+    font-size: 52px;
+    text-align: center;
+    font-family: "Arial Black";
+
+}
+
+.team-photos {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.member img {
+    width:200px;
+    height:200px;
+}
+
+.member{
+    text-align: center;
 }
