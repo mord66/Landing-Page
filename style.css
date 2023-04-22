@@ -178,5 +178,27 @@ a {
 .text {
 
     color: #FFFFE0;
-    font-family: "Andale Mono";
+    font-family:'Times New Roman', Times, serif;
+}
+
+.quote-section {
+    height:380px;
+    background-color: #226947;
+    padding-top: 60px;
+    color: rgb(235, 235, 193);
+}
+
+.quote {
+    text-align: center;
+    font-size: 52px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: "Apple Chancery";
+    margin-bottom: 75px;
+}
+
+.owner {
+    text-align:right;
+    padding-right: 220px;
+    font-size: 28px;
 }
