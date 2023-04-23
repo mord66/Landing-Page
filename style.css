@@ -183,9 +183,10 @@ a {
 
 .quote-section {
     height:380px;
-    background-color: #226947;
+    background-color: #5F8D4E;
     padding-top: 60px;
     color: rgb(235, 235, 193);
+    padding-bottom: 75px;
 }
 
 .quote {
@@ -194,11 +195,38 @@ a {
     padding-left: 150px;
     padding-right: 150px;
     font-family: "Apple Chancery";
-    margin-bottom: 75px;
 }
 
 .owner {
     text-align:right;
     padding-right: 220px;
     font-size: 28px;
+}
+
+.call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#123524 ;
+    height: 350px;
+    margin-top: 0;
+}
+
+.action-box {
+    width: 750px;
+    background-color: #E1FFB1;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+
+.action-text {
+    margin: 60px;
+    width: 400px;
+
+}
+
+.action-box button {
+    align-self: center;
 }
